@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> title </title>
+<style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+form{
+padding: 20px;
+}
+.center {
+ margin: 6% auto 0 auto;
+ width: 50%;
+ border: 1px solid;
+ padding: 10px;
+ border-radius: 0;
+
+}
+input[type=submit] {
+ background-color: #892cdc;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+input[type=submit]:hover {
+ opacity: 0.8;
+}
+input[type=text], input[type=password] {
+ width: 90%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: #f1f1f1;
+}
+</style>
+</head>
+<body>
+<div class="center">
+<form action="./Servlet1" >
+ Enter User name: <input type="text" name="username"> <br><br>
+ Enter Password: <input type="password" name="password"> <br><br>
+<input type="submit" value="login">
+</form>
+</div>
+</body>
+</html>
